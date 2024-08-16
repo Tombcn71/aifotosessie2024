@@ -3,7 +3,6 @@ import Link from "next/link";
 import CTA from "@/components/CTA";
 import Features from "@/components/Features";
 import Prijzen from "@/components/Prijzen";
-import { Button } from "@/components/ui/button";
 
 export default function HomePage() {
   return (
@@ -23,9 +22,9 @@ export default function HomePage() {
         </h2>
         <Link href="/login">
           {" "}
-          <Button className="border rounded-lg  h-14 px-10 m-2 text-xl text-white hover:bg-sky-600 bg-sky-600">
+          <button className="border rounded-lg  h-14 px-10 m-2 text-xl text-white hover:bg-sky-600 bg-sky-600">
             Start jouw AI transitie
-          </Button>
+          </button>
         </Link>
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">
